@@ -1,0 +1,42 @@
+table {
+    width: 820px;
+    /* text-align: center; */
+    
+
+}
+th{
+    text-align: left;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.tr-1{
+    text-align: center;
+}
+.tr-2{
+    text-align: start;
+}
+th,
+td {
+    
+    padding: 2px;
+}
+.button-edit{
+    margin-left: 10px;
+    width: 50px;
+    height: 30px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button-delete{
+    margin-left: 10px;
+        width: 55px;
+        height: 30px;
+        background-color: red;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+}
